@@ -48,3 +48,4 @@ __pycache__/
 venv/
 backend/venv/
 .env
+backend/.env
