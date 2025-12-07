@@ -43,3 +43,8 @@ Consumer Key
 __pycache__/
 *.py[cod]
 *$py.class
+
+# python venv
+venv/
+backend/venv/
+.env

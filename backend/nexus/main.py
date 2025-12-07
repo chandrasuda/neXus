@@ -40,6 +40,7 @@ app.include_router(profiles.router, prefix="/api")
 app.include_router(network.router, prefix="/api")
 app.include_router(scrape.router, prefix="/api")
 app.include_router(tweets.router, prefix="/api")
+app.include_router(rag.router, prefix="/api/rag", tags=["rag"])
 
 @app.get("/")
 async def root():
